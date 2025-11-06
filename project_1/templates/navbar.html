@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <div class="logo">My Flask Site</div>
+
+  <button id="menu-toggle" class="menu-toggle">☰</button>
+
+  <div class="nav-links" id="nav-links">
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('about') }}">About</a>
+    <a href="{{ url_for('contact') }}">Contact</a>
+    <a href="{{ url_for('form') }}">form</a>
+    <a href="{{ url_for('show_user_profile', username='nazim') }}">User</a>
+  </div>
+</nav>
