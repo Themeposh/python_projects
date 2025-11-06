@@ -3,7 +3,7 @@ https://flask.palletsprojects.com/en/stable/
 Step 1: Install Python
 Check version: python --version
 
-Step 2: Create a Virtual Environment(cmd command)
+Step 2: Create a Virtual Environment(use cmd command)
 
 py -3 -m venv .venv
 .venv\Scripts\activate
@@ -31,7 +31,9 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
-Run it:
+Run it: (use cmd command)
+py -3 -m venv .venv
+.venv\Scripts\activate
+pip install Flask
 python app.py
 
-Step 5: Use Templates (HTML)
