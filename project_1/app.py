@@ -30,6 +30,5 @@ def submit():
     # return f"Form submitted! Hello, {username}!"
     return render_template('user_info.html', username=username)
 
-
 if __name__ == '__main__':
     app.run(debug=True)
