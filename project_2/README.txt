@@ -30,10 +30,15 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
+#If have not install flask, then use this code.
 Run it: (use cmd command)
 python3 -m venv .venv
 source .venv/Scripts/activate
 pip install Flask
+python app.py
+
+
+#If have install flask, then use this code.
+source .venv/Scripts/activate
 python app.py
 
